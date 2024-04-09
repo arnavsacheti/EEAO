@@ -1,6 +1,10 @@
 import { createTheme } from '@mui/material/styles';
 
 const lightTheme = createTheme({
+    typography: {
+        fontFamily: "Rubik Mono One",
+        fontWeightRegular: 300,
+    },
     palette: {
         mode: 'light',  // This sets the mode of the theme to light
         text: {
@@ -19,6 +23,10 @@ const lightTheme = createTheme({
 });
 
 const darkTheme = createTheme({
+    typography: {
+        fontFamily: "Rubik Mono One",
+        fontWeightRegular: 300,
+    },
     palette: {
         mode: 'dark',  // This sets the mode of the theme to dark
         text: {
