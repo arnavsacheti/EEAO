@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   autofix:
-    name: Build and Lint
+    name: AutoFix.CI
     runs-on: ubuntu-latest
 
     steps:
