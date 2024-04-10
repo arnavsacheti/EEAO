@@ -33,7 +33,7 @@ const SplashPage: React.FC = () => {
             <Grid item xs={12} />
             <Grid item xs={12}>
                 <Grid container justifyContent="center" spacing={4} >
-                    <Grid item xs={4}>
+                    <Grid item xs={6}>
                         <Stack
                             direction="column"
                             alignItems="stretch"
@@ -93,7 +93,7 @@ const SplashPage: React.FC = () => {
                             </Paper>
                         </Stack>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item xs={6}>
                         <img src={moviePostersList[movie_poster_index].src} style={{ width: '100%' }} />
                     </Grid>
                 </Grid>

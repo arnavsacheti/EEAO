@@ -1,9 +1,9 @@
 // Sidebar.tsx
-import React from 'react';
+import React, { useState } from 'react';
 // import '../styles/Sidebar.css'
-import { Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import { Collapse, Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { AvTimer, Balance, Biotech, DarkMode, Directions, GitHub, Home, LightMode, Slideshow, Timeline } from '@mui/icons-material';
+import { ArrowDropDown, ArrowDropUp, AvTimer, Balance, Biotech, Book, CellTower, Computer, DarkMode, Directions, EnhancedEncryption, GitHub, Home, LightMode, PrivacyTip, Psychology, Security, Slideshow, Timeline, Work } from '@mui/icons-material';
 
 interface SidebarProps {
     width: number;
@@ -12,16 +12,35 @@ interface SidebarProps {
 }
 
 const sidebarItems = [
-    { text: 'Home', icon: <Home /> },
-    { text: 'Minutes', icon: <AvTimer /> },
-    { text: 'Intent', icon: <Directions /> },
-    { text: 'Technology', icon: <Biotech /> },
-    { text: 'Timeline', icon: <Timeline /> },
-    { text: 'Conclusion', icon: <Balance /> },
-    { text: 'Presentation', icon: <Slideshow /> },
+    { text: 'Home', link: '/', icon: <Home /> },
+    { text: 'Minutes', link: '/minutes', icon: <AvTimer /> },
+    { text: 'Intent', link: '/intent', icon: <Directions /> },
+    { text: 'Technology', link: '/technology', icon: <Biotech /> },
+    { text: 'Timeline', link: '/timeline', icon: <Timeline /> },
+    { text: 'Conclusion', link: '/conclusion', icon: <Balance /> },
+    { text: 'Presentation', link: '/presentation', icon: <Slideshow /> },
 ];
 
+
+const sectionList = [
+    { text: 'Network Communication', link: '/network-communication', icon: <CellTower /> },
+    { text: 'Intelectual Property', link: '/intelectual-property', icon: <Psychology /> },
+    { text: 'Information Privacy', link: '/information-privacy', icon: <PrivacyTip /> },
+    { text: 'Privacy and the Government', link: '/privacy-and-the-government', icon: <Security /> },
+    { text: 'Computer & Network Security', link: '/computer-and-network-security', icon: <EnhancedEncryption /> },
+    { text: 'Computer Reliability', link: '/computer-reliability', icon: <Computer /> },
+    { text: 'Work & Wealth', link: '/work-and-wealth', icon: <Work /> },
+
+]
+
 const Sidebar: React.FC<SidebarProps> = (props: SidebarProps) => {
+
+    const [sectionOpen, setSectionOpen] = useState(false);
+
+    const toggleSectionOpen = () => {
+        setSectionOpen(!sectionOpen);
+    }
+
     return (
         <Drawer
             sx={{
@@ -38,7 +57,7 @@ const Sidebar: React.FC<SidebarProps> = (props: SidebarProps) => {
             <List>
                 {sidebarItems.map((item) => (
                     <ListItem key={item.text} disablePadding>
-                        <ListItemButton component={Link} to={`/${item.text.toLowerCase()}`}>
+                        <ListItemButton component={Link} to={`${item.link}`}>
                             <ListItemIcon>
                                 {item.icon}
                             </ListItemIcon>
@@ -46,6 +65,29 @@ const Sidebar: React.FC<SidebarProps> = (props: SidebarProps) => {
                         </ListItemButton>
                     </ListItem>
                 ))}
+                <ListItem key={'Chapters'} disablePadding>
+                    <ListItemButton onClick={toggleSectionOpen}>
+                        <ListItemIcon>
+                            <Book />
+                        </ListItemIcon>
+                        <ListItemText primary='Chapters' />
+                        <ListItemIcon>
+                            {!sectionOpen ? <ArrowDropDown /> : <ArrowDropUp />}
+                        </ListItemIcon>
+                    </ListItemButton>
+                </ListItem>
+                <Collapse in={sectionOpen} timeout='auto' unmountOnExit>
+                    {sectionList.map((sectionItem) => (
+                        <ListItem key={sectionItem.text}>
+                            <ListItemButton component={Link} to={`${sectionItem.link}`}>
+                                <ListItemIcon>
+                                    {sectionItem.icon}
+                                </ListItemIcon>
+                                <ListItemText primary={sectionItem.text} />
+                            </ListItemButton>
+                        </ListItem>
+                    ))}
+                </Collapse>
             </List>
             <List sx={{ mt: 'auto', mb: 2 }}>
                 <ListItem disablePadding>
@@ -63,7 +105,7 @@ const Sidebar: React.FC<SidebarProps> = (props: SidebarProps) => {
                     </ListItemButton>
                 </ListItem>
             </List>
-        </Drawer>
+        </Drawer >
     );
 };
 
