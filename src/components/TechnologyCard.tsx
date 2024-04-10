@@ -5,7 +5,7 @@ interface TechnologyCardProps {
     image: string,
     image_alt: string,
     description: string,
-};
+}
 
 const TechnologyCard: React.FC<TechnologyCardProps> = (props: TechnologyCardProps) => {
     return (
