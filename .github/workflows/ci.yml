@@ -14,8 +14,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Load Repository with
+    - name: Load Repository
       uses: actions/checkout@v4
+      
+    - name: Load Bun
+      uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
 
     - name: Continous Integration
       run: |
