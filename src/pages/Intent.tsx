@@ -1,7 +1,5 @@
 const IntentPage = () => {
-    return (
-        <div>Intent</div>
-    )
+  return <div>Intent</div>;
 };
 
 export default IntentPage;
