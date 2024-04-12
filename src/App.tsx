@@ -40,7 +40,7 @@ const App: React.FC = () => {
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
       <CssBaseline />
 
-      <BrowserRouter>
+      <BrowserRouter basename='/EEAO'>
         <Box sx={{ display: "flex" }}>
           <Sidebar
             width={drawerWidth}
@@ -55,7 +55,7 @@ const App: React.FC = () => {
               width: { sm: `calc(100% - ${drawerWidth}px)` },
             }}
           >
-            <Routes>
+            <Routes  >
               <Route path="/" element={<SplashPage />} />
               <Route path="/home" element={<SplashPage />} />
               <Route path="/minutes" element={<MinutesPage />} />
