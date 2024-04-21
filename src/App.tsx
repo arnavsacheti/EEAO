@@ -14,6 +14,7 @@ import {
 } from "./pages";
 import TimelinePage from "./pages/Timeline";
 import PresentationPage from "./pages/Presentation";
+import IntellectualPropertyPage from "./pages/IntellectualPropertyPage.tsx";
 
 const App: React.FC = () => {
   const prefersDarkScheme = window.matchMedia(
@@ -64,6 +65,7 @@ const App: React.FC = () => {
               <Route path="/timeline" element={<TimelinePage />} />
               <Route path="/conclusion" element={<ConclusionPage />} />
               <Route path="/presentation" element={<PresentationPage />} />
+              <Route path="/intellectual-property" element={<IntellectualPropertyPage />} />
             </Routes>
           </Box>
         </Box>
