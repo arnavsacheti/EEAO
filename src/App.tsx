@@ -65,7 +65,7 @@ const App: React.FC = () => {
               <Route path="/conclusion" element={<ConclusionPage />} />
               <Route path="/presentation" element={<PresentationPage />} />
               <Route path="/privacy-and-the-government" element={<PATGPage />} />
-              <Route path="/networked-communications" element={<NCPage} />
+              <Route path="/networked-communications" element={<NCPage />} />
             </Routes>
           </Box>
         </Box>
