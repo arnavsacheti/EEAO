@@ -1,1 +1,1 @@
-export { default as PATGPage } from "./PATG"
+export { default as PATGPage } from "./PATG";

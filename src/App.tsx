@@ -64,7 +64,10 @@ const App: React.FC = () => {
               <Route path="/timeline" element={<TimelinePage />} />
               <Route path="/conclusion" element={<ConclusionPage />} />
               <Route path="/presentation" element={<PresentationPage />} />
-              <Route path="/privacy-and-the-government" element={<PATGPage />} />
+              <Route
+                path="/privacy-and-the-government"
+                element={<PATGPage />}
+              />
             </Routes>
           </Box>
         </Box>
