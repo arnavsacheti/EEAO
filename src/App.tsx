@@ -14,6 +14,7 @@ import {
 } from "./pages";
 import TimelinePage from "./pages/Timeline";
 import PresentationPage from "./pages/Presentation";
+import PATGPage from "./pages/Sections/PATG";
 
 const App: React.FC = () => {
   const prefersDarkScheme = window.matchMedia(
@@ -57,13 +58,16 @@ const App: React.FC = () => {
           >
             <Routes>
               <Route path="/" element={<SplashPage />} />
-              <Route path="/home" element={<SplashPage />} />
               <Route path="/minutes" element={<MinutesPage />} />
               <Route path="/intent" element={<IntentPage />} />
               <Route path="/technology" element={<TechnologyPage />} />
               <Route path="/timeline" element={<TimelinePage />} />
               <Route path="/conclusion" element={<ConclusionPage />} />
               <Route path="/presentation" element={<PresentationPage />} />
+              <Route
+                path="/privacy-and-the-government"
+                element={<PATGPage />}
+              />
             </Routes>
           </Box>
         </Box>

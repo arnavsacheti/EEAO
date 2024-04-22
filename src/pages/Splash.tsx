@@ -36,78 +36,85 @@ const SplashPage: React.FC = () => {
       </Grid>
       <Grid item xs={12} />
       <Grid item xs={12}>
-        <Grid container justifyContent="center" spacing={4}>
-          <Grid item xs={6}>
-            <Stack
-              direction="column"
-              alignItems="stretch"
-              justifyContent="space-between"
-              height={"100%"}
-            >
-              <Paper style={{ padding: 4 }}>
-                <Typography
-                  variant="subtitle1"
-                  component="h1"
-                  color="text.secondary"
-                >
-                  WRITTEN AND DIRECTED BY
-                </Typography>
-                <Typography variant="h4">
-                  Daniel Kwan and Daniel Scheinert
-                </Typography>
-              </Paper>
-              <Paper style={{ padding: 4 }}>
-                <Typography
-                  variant="subtitle1"
-                  component="h1"
-                  color="text.secondary"
-                >
-                  YEAR
-                </Typography>
-                <Typography variant="h4">2022</Typography>
-              </Paper>
-              <Paper style={{ padding: 4 }}>
-                <Typography
-                  variant="subtitle1"
-                  component="h1"
-                  color="text.secondary"
-                >
-                  STARRING
-                </Typography>
-                <Typography variant="h4">Michelle Yeoh</Typography>
-                <Typography variant="h4">Stephanie Hsu</Typography>
-                <Typography variant="h4">Ke Huy Quan</Typography>
-                <Typography variant="h4">Jenny Slate</Typography>
-                <Typography variant="h4">Harry Shum Jr.</Typography>
-                <Typography variant="h5" color="text.secondary">
-                  with James Hong
-                </Typography>
-                <Typography variant="h5" color="text.secondary">
-                  and Jamie Lee Curtis
-                </Typography>
-              </Paper>
-              <Paper style={{ padding: 4 }}>
-                <Typography
-                  variant="subtitle1"
-                  component="h1"
-                  color="text.secondary"
-                >
-                  Description
-                </Typography>
-                <Typography variant="body1">
-                  Directed by Daniel Kwan and Daniel Scheinert, collectively
-                  known as Daniels, the film is a hilarious and big-hearted
-                  sci-fi action adventure about an exhausted Chinese American
-                  woman (Michelle Yeoh) who can't seem to finish her taxes.
-                </Typography>
-              </Paper>
-            </Stack>
-          </Grid>
-          <Grid item xs={6}>
-            <img
-              src={moviePostersList[movie_poster_index].src}
-              style={{ width: "100%" }}
-            />
+        <Grid container justifyContent="center">
+          <Grid
+            container
+            justifyContent="center"
+            spacing={4}
+            sx={{ maxWidth: 1200 }}
+          >
+            <Grid item xs={6}>
+              <Stack
+                direction="column"
+                alignItems="stretch"
+                justifyContent="space-between"
+                height={"100%"}
+              >
+                <Paper style={{ padding: 4 }}>
+                  <Typography
+                    variant="subtitle1"
+                    component="h1"
+                    color="text.secondary"
+                  >
+                    WRITTEN AND DIRECTED BY
+                  </Typography>
+                  <Typography variant="h4">
+                    Daniel Kwan and Daniel Scheinert
+                  </Typography>
+                </Paper>
+                <Paper style={{ padding: 4 }}>
+                  <Typography
+                    variant="subtitle1"
+                    component="h1"
+                    color="text.secondary"
+                  >
+                    YEAR
+                  </Typography>
+                  <Typography variant="h4">2022</Typography>
+                </Paper>
+                <Paper style={{ padding: 4 }}>
+                  <Typography
+                    variant="subtitle1"
+                    component="h1"
+                    color="text.secondary"
+                  >
+                    STARRING
+                  </Typography>
+                  <Typography variant="h4">Michelle Yeoh</Typography>
+                  <Typography variant="h4">Stephanie Hsu</Typography>
+                  <Typography variant="h4">Ke Huy Quan</Typography>
+                  <Typography variant="h4">Jenny Slate</Typography>
+                  <Typography variant="h4">Harry Shum Jr.</Typography>
+                  <Typography variant="h5" color="text.secondary">
+                    with James Hong
+                  </Typography>
+                  <Typography variant="h5" color="text.secondary">
+                    and Jamie Lee Curtis
+                  </Typography>
+                </Paper>
+                <Paper style={{ padding: 4 }}>
+                  <Typography
+                    variant="subtitle1"
+                    component="h1"
+                    color="text.secondary"
+                  >
+                    Description
+                  </Typography>
+                  <Typography variant="body1">
+                    Directed by Daniel Kwan and Daniel Scheinert, collectively
+                    known as Daniels, the film is a hilarious and big-hearted
+                    sci-fi action adventure about an exhausted Chinese American
+                    woman (Michelle Yeoh) who can't seem to finish her taxes.
+                  </Typography>
+                </Paper>
+              </Stack>
+            </Grid>
+            <Grid item xs={6}>
+              <img
+                src={moviePostersList[movie_poster_index].src}
+                style={{ width: "100%" }}
+              />
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
