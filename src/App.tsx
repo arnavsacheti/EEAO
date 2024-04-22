@@ -41,7 +41,7 @@ const App: React.FC = () => {
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
       <CssBaseline />
 
-      <BrowserRouter>
+      <BrowserRouter basename="/EEAO">
         <Box sx={{ display: "flex" }}>
           <Sidebar
             width={drawerWidth}

@@ -37,7 +37,12 @@ const SplashPage: React.FC = () => {
       <Grid item xs={12} />
       <Grid item xs={12}>
         <Grid container justifyContent="center">
-          <Grid container justifyContent="center" spacing={4} sx={{ maxWidth: 1200 }}>
+          <Grid
+            container
+            justifyContent="center"
+            spacing={4}
+            sx={{ maxWidth: 1200 }}
+          >
             <Grid item xs={6}>
               <Stack
                 direction="column"
