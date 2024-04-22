@@ -1,15 +1,7 @@
 import React from 'react';
-import Masonry from 'react-masonry-css';
-import { Grid, Box, Stack, Typography, Card, CardContent, Paper } from "@mui/material";
-import { Padding } from '@mui/icons-material';
+import { Grid, Box, Stack, Typography, Paper } from "@mui/material";
 
 const PATGPage: React.FC = () => {
-    const masonryBreakpoints = {
-        default: 4,
-        1100: 3,
-        700: 2,
-        500: 1
-    }
     return (
         <>
             <Grid container spacing={4}>
