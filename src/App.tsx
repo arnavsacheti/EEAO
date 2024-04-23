@@ -15,6 +15,7 @@ import {
 import TimelinePage from "./pages/Timeline";
 import PresentationPage from "./pages/Presentation";
 import PATGPage from "./pages/Sections/PATG";
+import { InformationPrivacyPage } from "./pages/Sections";
 
 const App: React.FC = () => {
   const prefersDarkScheme = window.matchMedia(
@@ -67,6 +68,10 @@ const App: React.FC = () => {
               <Route
                 path="/privacy-and-the-government"
                 element={<PATGPage />}
+              />
+              <Route
+                path="/information-privacy"
+                element={<InformationPrivacyPage />}
               />
             </Routes>
           </Box>
