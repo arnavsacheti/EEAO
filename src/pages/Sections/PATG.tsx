@@ -42,14 +42,14 @@ const PATGPage: React.FC = () => {
             The film “Everything Everywhere All at Once” introduces the
             Alphaverse, portrayed as the best versions of everyone. Being the
             best, they have not only discovered the multiverse but also
-            developed the technology to jump between them, coined as ‘Verse
-            Jumping’. As pointers of this technology, the Alphaverse takes the
+            developed the technology to jump between them, coined as 'Verse
+            Jumping'. As pointers of this technology, the Alphaverse takes the
             onus of preserving the balance of the multiverse; assuming the
             position of authority to govern/influence other verses.
           </Typography>
           <Typography variant="body1" color={"text.primary"}>
             One of the technologies the Alphaverse developed is a tool to track
-            a persons ‘lifepaths’, the cumulative outcomes of a person's
+            a persons 'lifepaths', the cumulative outcomes of a person's
             decisions across various realities. Using this technology the
             Alphaverse is able to single out Evelyn as the best candidate to
             combat Jobu Tupaki. While this ability to survey a population can
@@ -65,10 +65,10 @@ const PATGPage: React.FC = () => {
             Another technology developed with the goal of scientific progress is
             the verse jumping headset, a device that allows a user to
             communicate and influence their counterparts in other universes. The
-            Alphaverse uses this technology to assert control over Evelyn’s
+            Alphaverse uses this technology to assert control over Evelyn's
             actions, guiding her quest to stop Jobu Tupaki. An implication of
             this tool being that it can manipulate decisions across realities;
-            shown in a verse jump to the ‘Raccacoonie’ verse, where Evelyn
+            shown in a verse jump to the 'Raccacoonie' verse, where Evelyn
             uncovers a fellow chef that is being controlled by a raccoon. While
             not presented as nefarious, the lack of regulation could prompt
             nefarious use leading to potential butterfly effects.

@@ -14,7 +14,12 @@ import {
 } from "./pages";
 import TimelinePage from "./pages/Timeline";
 import PresentationPage from "./pages/Presentation";
-import { PATGPage, NCPage, CANSPage, InformationPrivacyPage} from "./pages/Sections";
+import {
+  PATGPage,
+  NCPage,
+  CANSPage,
+  InformationPrivacyPage,
+} from "./pages/Sections";
 
 const App: React.FC = () => {
   const prefersDarkScheme = window.matchMedia(
