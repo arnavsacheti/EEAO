@@ -57,8 +57,8 @@ const sectionList = [
     icon: <CellTower />,
   },
   {
-    text: "Intelectual Property",
-    link: "/intelectual-property",
+    text: "Intellectual Property",
+    link: "/intellectual-property",
     icon: <Psychology />,
   },
   {
