@@ -17,6 +17,7 @@ import PresentationPage from "./pages/Presentation";
 import {
   PATGPage,
   InformationPrivacyPage,
+  WorkAndWealthPage,
   IntellectualPropertyPage,
   ComputerReliabilityPage,
 } from "./pages/Sections";
@@ -77,6 +78,7 @@ const App: React.FC = () => {
                 path="/information-privacy"
                 element={<InformationPrivacyPage />}
               />
+              <Route path="/work-and-wealth" element={<WorkAndWealthPage />} />
               <Route
                 path="/intellectual-property"
                 element={<IntellectualPropertyPage />}
