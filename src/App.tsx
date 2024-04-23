@@ -19,6 +19,9 @@ import {
   NCPage,
   CANSPage,
   InformationPrivacyPage,
+  WorkAndWealthPage,
+  IntellectualPropertyPage,
+  ComputerReliabilityPage,
 } from "./pages/Sections";
 
 const App: React.FC = () => {
@@ -81,6 +84,15 @@ const App: React.FC = () => {
               <Route
                 path="/computer-and-network-security"
                 element={<CANSPage />}
+              />
+              <Route path="/work-and-wealth" element={<WorkAndWealthPage />} />
+              <Route
+                path="/intellectual-property"
+                element={<IntellectualPropertyPage />}
+              />
+              <Route
+                path="/computer-reliability"
+                element={<ComputerReliabilityPage />}
               />
             </Routes>
           </Box>
