@@ -11,7 +11,7 @@ const TechnologyCard: React.FC<TechnologyCardProps> = (
   props: TechnologyCardProps,
 ) => {
   return (
-    <Card sx={{ display: "flex" }}>
+    <Card sx={{ display: "flex", margin: "10px" }}>
       <CardMedia
         component="img"
         sx={{ width: 200 }}
