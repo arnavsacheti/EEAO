@@ -52,13 +52,13 @@ const sidebarItems = [
 
 const sectionList = [
   {
-    text: "Network Communication",
-    link: "/network-communication",
+    text: "Networked Communication",
+    link: "/networked-communication",
     icon: <CellTower />,
   },
   {
-    text: "Intelectual Property",
-    link: "/intelectual-property",
+    text: "Intellectual Property",
+    link: "/intellectual-property",
     icon: <Psychology />,
   },
   {

@@ -21,7 +21,7 @@ const InformationPrivacyPage: React.FC = () => {
               Social Implications of Computing Movie Analysis Project
             </Typography>
             <Typography variant="subtitle1" color="text.secondary">
-              Arnav Sacheti
+              Shawn Greenwood
             </Typography>
           </Stack>
         </Grid>
