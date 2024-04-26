@@ -35,6 +35,7 @@ const PresentationPage = () => {
           allowFullScreen={true}
         />
       </Box>
+      <a href="/EEAO/pres.pptx">Link to paper</a>
     </>
   );
 };
