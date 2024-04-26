@@ -6,7 +6,7 @@ const IntentPage = () => {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h2" component="h1">
-            Work And Wealth
+            Movie Makers Intent
           </Typography>
         </Grid>
         <Grid item xs={12}>
@@ -18,9 +18,6 @@ const IntentPage = () => {
           >
             <Typography variant="subtitle1" color="text.secondary">
               Social Implications of Computing Movie Analysis Project
-            </Typography>
-            <Typography variant="subtitle1" color="text.secondary">
-              Shawn Greenwood
             </Typography>
           </Stack>
         </Grid>
