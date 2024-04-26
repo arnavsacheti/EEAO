@@ -7,7 +7,7 @@ const NCPage: React.FC = () => {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h2" component="h1">
-            Networked Communications
+            Network Communications
           </Typography>
         </Grid>
         <Grid item xs={12}>

@@ -80,7 +80,7 @@ const App: React.FC = () => {
                 path="/information-privacy"
                 element={<InformationPrivacyPage />}
               />
-              <Route path="/networked-communications" element={<NCPage />} />
+              <Route path="/network-communication" element={<NCPage />} />
               <Route
                 path="/computer-and-network-security"
                 element={<CANSPage />}

@@ -52,8 +52,8 @@ const sidebarItems = [
 
 const sectionList = [
   {
-    text: "Networked Communication",
-    link: "/networked-communication",
+    text: "Network Communication",
+    link: "/network-communication",
     icon: <CellTower />,
   },
   {
