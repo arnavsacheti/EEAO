@@ -1,5 +1,5 @@
-import { Grid, Stack, Typography } from "@mui/material";
 import TechnologyCard from "../components/TechnologyCard";
+import PageHeader from "../components/PageHeader";
 
 const technologyItems = [
   {
@@ -21,29 +21,7 @@ const technologyItems = [
 const TechnologyPage = () => {
   return (
     <>
-      <Grid container spacing={4}>
-        <Grid item xs={12}>
-          <Typography variant="h2" component="h1">
-            Technology
-          </Typography>
-        </Grid>
-        <Grid item xs={12}>
-          <Stack
-            direction="row"
-            alignItems="stretch"
-            justifyContent="space-between"
-            sx={{ width: "100%" }}
-          >
-            <Typography variant="subtitle1" color="text.secondary">
-              Social Implications of Computing Movie Analysis Project
-            </Typography>
-            {/* <Typography variant="subtitle1" color="text.secondary">
-            Everything Everywhere All at Once
-          </Typography> */}
-          </Stack>
-        </Grid>
-        <Grid item xs={12} />
-      </Grid>
+      <PageHeader title="Technology" last_update={new Date(2024, 3, 26)} />
       {technologyItems.map((item) => (
         <TechnologyCard
           name={item.name}
