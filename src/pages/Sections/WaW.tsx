@@ -1,32 +1,15 @@
 import React from "react";
-import { Grid, Box, Stack, Typography, Paper } from "@mui/material";
+import { Box, Typography, Paper } from "@mui/material";
+import SectionHeader from "../../components/SectionHeader";
 
 const WorkAndWealthPage: React.FC = () => {
   return (
     <>
-      <Grid container spacing={4}>
-        <Grid item xs={12}>
-          <Typography variant="h2" component="h1">
-            Work And Wealth
-          </Typography>
-        </Grid>
-        <Grid item xs={12}>
-          <Stack
-            direction="row"
-            alignItems="stretch"
-            justifyContent="space-between"
-            sx={{ width: "100%" }}
-          >
-            <Typography variant="subtitle1" color="text.secondary">
-              Social Implications of Computing Movie Analysis Project
-            </Typography>
-            <Typography variant="subtitle1" color="text.secondary">
-              Shawn Greenwood
-            </Typography>
-          </Stack>
-        </Grid>
-        <Grid item xs={12} />
-      </Grid>
+      <SectionHeader
+        title="Work And Wealth"
+        author="Shawn Greenwood"
+        last_update={new Date(2024, 3, 26)}
+      />
       <Box sx={{ width: "90%", margin: "auto" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
           <Typography variant="body1" color={"text.primary"}>
