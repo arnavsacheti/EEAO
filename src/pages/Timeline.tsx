@@ -120,8 +120,8 @@ const TimelineItems = [
   {
     title: "All At Once",
     timestamp: "2:10:28",
-    content: []
-  }
+    content: [],
+  },
 ];
 
 const TimelinePage = () => {
