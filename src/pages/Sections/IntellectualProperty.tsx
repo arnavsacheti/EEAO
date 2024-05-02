@@ -11,7 +11,11 @@ const IntellectualPropertyPage = () => {
       />
       <Box sx={{ width: "90%", margin: "auto" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             Intellectual Property does not have particularly strong ties to the
             movie Everything Everywhere all at once (EEAO). In the movie, there
             is no point in which trademarked symbols play a significant role, or

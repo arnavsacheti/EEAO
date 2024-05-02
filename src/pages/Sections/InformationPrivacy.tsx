@@ -12,7 +12,11 @@ const InformationPrivacyPage: React.FC = () => {
       />
       <Box sx={{ width: "90%", margin: "auto" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             “Everything everywhere all at once” is not a movie that concerns
             itself with the issue of information privacy. However, that doesn't
             mean that there are no privacy issues present within the film. In
@@ -22,7 +26,11 @@ const InformationPrivacyPage: React.FC = () => {
             natural right to a state of privacy, then that right is violated in
             this film from the start.
           </Typography>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             The biggest information privacy issues in “Everything everywhere all
             at once” stem from the verse that coordinates and controls the
             “jumping” technology featured prominently in the film. In order to
@@ -35,7 +43,11 @@ const InformationPrivacyPage: React.FC = () => {
             fall upon two major privacy-related issues that aren't really
             addressed by the film.
           </Typography>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             The first issue is related to the organization that coordinates the
             jumps in the first place. Throughout the film, they displayed
             extensive knowledge about every person who performed a jump; not
@@ -49,7 +61,11 @@ const InformationPrivacyPage: React.FC = () => {
             calculation or via some sort of interdimensional data mining, but
             the breach of privacy remains regardless of their methods.
           </Typography>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             The second issue relates to the memories that are being swapped in
             the first place. As mentioned previously, the memories of a person
             who is performing a jump are supplemented by the version of the
