@@ -7,7 +7,11 @@ const ConclusionPage = () => {
       <PageHeader title="Conclusion" last_update={new Date(2024, 3, 29)} />
       <Box sx={{ width: "90%", margin: "auto", padding: "5px" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             Everything Everywhere All at Once is an absurd movie, at its core it
             explores the narrative of an immigrant business owner traversing the
             complicated structure of taxes. Looking further at the movie we are
@@ -16,7 +20,11 @@ const ConclusionPage = () => {
             while navigating the multiverse the film touches on the impact of
             technology on individual identities, society and decision making.
           </Typography>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             One technology that is explored is Verse Jumping, this technology
             creates a temporary link to the consciousness of another version of
             yourself. This connection allows you to access their memories,
@@ -41,7 +49,11 @@ const ConclusionPage = () => {
             odds of having high levels of depressive symptoms and a 3.2 times
             greater odds of having high levels of anxiety symptoms” [1].
           </Typography>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             Another technology that is explored in the film is the life path
             visualizer, a tool that shows all the different decisions that a
             person has made in their life; each decision creating a branch from
@@ -52,7 +64,11 @@ const ConclusionPage = () => {
             choose to use this tool for their goal, potentially interfering with
             other universes, without any reasoning other than it is our mission.
           </Typography>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             Based on these implications this movie poses a few key conclusions,
             that your right to privacy should be protected from everyone, even
             yourself, legislation should be current to the technology, and that
@@ -69,7 +85,11 @@ const ConclusionPage = () => {
       </Box>
       <Box sx={{ width: "90%", margin: "auto", padding: "5px" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             [1] Naslund, J. A., Bondre, A., Torous, J., & Aschbrenner, K. A.
             (2020). Social Media and Mental Health: Benefits, Risks, and
             Opportunities for Research and Practice. Journal of technology in
