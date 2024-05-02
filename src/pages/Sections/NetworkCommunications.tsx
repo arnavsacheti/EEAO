@@ -12,7 +12,7 @@ const NCPage: React.FC = () => {
       />
       <Box sx={{ width: "90%", margin: "auto" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             "Everything Everywhere All at Once" is a movie that dives deep into
             the huge potential of the power of technology. The main theme
             revolves around Evelyn's ability to "verse-jump" and tap into the

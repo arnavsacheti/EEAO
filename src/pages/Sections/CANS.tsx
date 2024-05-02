@@ -12,7 +12,7 @@ const CANSPage: React.FC = () => {
       />
       <Box sx={{ width: "90%", margin: "auto" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             In the film, 'Everything Everywhere All At Once' the main concept is
             that every choice, no matter how small, has an infinite number of
             possible worlds and lives. This concept reflects how complex the

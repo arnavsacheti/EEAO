@@ -7,7 +7,7 @@ const IntentPage = () => {
       <PageHeader title="Intent" last_update={new Date(2024, 3, 29)} />
       <Box sx={{ width: "90%", margin: "auto", padding: "5px" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             The writers and directors of the Everything Everywhere All At Once,
             Daniel Kwan and Daniel Scheinert, explored science and philosophy
             through creative storytelling which helped add many deep layers
@@ -39,12 +39,12 @@ const IntentPage = () => {
       </Box>
       <Box sx={{ width: "90%", margin: "auto", padding: "5px" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             Chew, Sarah and Taylor W. Cyr. "How 'Everything Everywhere All at
             Once' Finds Meaning in a 'Nothing Matters' World." (The Gospel
             Coalition, 3 Mar. 2023). Everything-everywhere-all-at-once
           </Typography>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             Kwong, Emily, et al. "Meet the mathematical minds behind
             Oscar-nominated 'Everything Everywhere All At Once'." (NPR, 25 Jan.
             2023).

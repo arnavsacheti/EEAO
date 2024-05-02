@@ -12,7 +12,7 @@ const PATGPage: React.FC = () => {
       />
       <Box sx={{ width: "90%", margin: "auto" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             In the United States we have a clear precedent for the protections
             we have in regards to the collection of public data, stemming from
             the 1967 Katz V US case, stating that people have a reasonable
@@ -21,7 +21,7 @@ const PATGPage: React.FC = () => {
             understood as individuals have a reasonable expectation of privacy
             when in public.
           </Typography>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             The film “Everything Everywhere All at Once” introduces the
             Alphaverse, portrayed as the best versions of everyone. Being the
             best, they have not only discovered the multiverse but also
@@ -30,7 +30,7 @@ const PATGPage: React.FC = () => {
             onus of preserving the balance of the multiverse; assuming the
             position of authority to govern/influence other verses.
           </Typography>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             One of the technologies the Alphaverse developed is a tool to track
             a persons 'lifepaths', the cumulative outcomes of a person's
             decisions across various realities. Using this technology the
@@ -44,7 +44,7 @@ const PATGPage: React.FC = () => {
             privacy regulations, questioning to what extent surveillance is
             permissible.
           </Typography>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             Another technology developed with the goal of scientific progress is
             the verse jumping headset, a device that allows a user to
             communicate and influence their counterparts in other universes. The
@@ -56,7 +56,7 @@ const PATGPage: React.FC = () => {
             not presented as nefarious, the lack of regulation could prompt
             nefarious use leading to potential butterfly effects.
           </Typography>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography variant="body1" color={"text.primary"} sx={{ fontFamily: "Arial, sans-serif" }}>
             Everything Everywhere All at Once mirrors ongoing debates regarding
             the use of technology for government surveillance, highlighting the
             need for safeguards and policies governing the use of advanced
