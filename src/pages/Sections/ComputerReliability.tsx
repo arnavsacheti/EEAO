@@ -12,7 +12,11 @@ const ComputerReliabilityPage = () => {
 
       <Box sx={{ width: "90%", margin: "auto" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             Computer Reliability relates heavily to the techniques of
             multiversal travel, or "verse jumping", displayed in Everything
             Everywhere All At Once. For starters, the technology used to travel

@@ -12,7 +12,11 @@ const WorkAndWealthPage: React.FC = () => {
       />
       <Box sx={{ width: "90%", margin: "auto" }}>
         <Paper sx={{ padding: "4px", textIndent: "40px" }}>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             The threat of automation is something that almost every worker
             fears. If people lose their careers to automation, it can destroy
             their lives and leave them broke and homeless. However, the
@@ -22,7 +26,11 @@ const WorkAndWealthPage: React.FC = () => {
             the increasing instability of the multiverse are far more important
             than focusing on automation.
           </Typography>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             The primary motivator behind this lack of focus on automation comes
             from the fact that the very foundation of their universe is
             perceived to be in danger. Jobu Tupaki, the antagonist of the film,
@@ -33,7 +41,11 @@ const WorkAndWealthPage: React.FC = () => {
             quality of life using automation and other means, and the
             organization working in the alphaverse is no different.
           </Typography>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             This impending threat causes an attitude where collaboration is
             encouraged between members of the alphaverse, where everyone is
             seemingly in agreement that this inter-universal threat is the most
@@ -46,7 +58,11 @@ const WorkAndWealthPage: React.FC = () => {
             don’t even have time to perform those tasks, how would they have
             time to figure out how to automate them?
           </Typography>
-          <Typography variant="body1" color={"text.primary"}>
+          <Typography
+            variant="body1"
+            color={"text.primary"}
+            sx={{ fontFamily: "Arial, sans-serif" }}
+          >
             Even looking into the individual universes Evelyn “jumps” to yields
             little to no trace of the threat of automation. Many of the
             universes she “jumps” to in the film do not disclose her method of
